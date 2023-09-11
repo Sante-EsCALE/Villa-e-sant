@@ -1201,7 +1201,7 @@
                      "color":"#f7f7f7",
                      "fontfamily":"Quicksand",
                      "pixelsize":18,
-                     "text":"Kin\u00e9",
+                     "text":"KINE",
                      "wrap":true
                     },
                  "type":"text",
@@ -1235,14 +1235,14 @@
                  "text":
                     {
                      "color":"#ffffff",
-                     "text":"Bienvenue \u00e0 la Villa Sant\u00e9",
+                     "text":"Villa Sant\u00e9 Bienvenue",
                      "wrap":true
                     },
                  "type":"Text",
                  "visible":true,
-                 "width":139.23,
-                 "x":1052.88,
-                 "y":1260.58
+                 "width":93.23,
+                 "x":1078.88,
+                 "y":1262.58
                 }, 
                 {
                  "height":38.84,
@@ -1259,7 +1259,7 @@
                  "visible":true,
                  "width":156.23,
                  "x":1319.88,
-                 "y":1268.578125
+                 "y":1273.578125
                 }],
          "opacity":1,
          "type":"objectgroup",
