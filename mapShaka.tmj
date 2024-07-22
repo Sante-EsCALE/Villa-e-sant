@@ -1403,7 +1403,6 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#ffffff",
                      "text":"Villa Sant\u00e9 Bienvenue",
                      "wrap":true
                     },
@@ -1420,7 +1419,6 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#ffffff",
                      "text":"Pr\u00e9vention & Bien \u00eatre",
                      "wrap":true
                     },
