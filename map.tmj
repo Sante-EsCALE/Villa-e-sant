@@ -1104,14 +1104,14 @@
                 {
                  "height":18.84375,
                  "id":30,
-                 "name":"Maison de la Douleur",
+                 "name":"Sant\u00e9 Escale 41",
                  "rotation":0,
                  "text":
                     {
                      "color":"#f7f7f7",
                      "fontfamily":"Quicksand",
                      "pixelsize":18,
-                     "text":"Maison de la Douleur",
+                     "text":"Sant\u00e9 Escale 41",
                      "wrap":true
                     },
                  "type":"text",
