@@ -1424,9 +1424,9 @@
                     },
                  "type":"text",
                  "visible":true,
-                 "width":192,
+                 "width":274,
                  "x":1454,
-                 "y":1289
+                 "y":1277
                 }, 
                 {
                  "height":18.8438,
