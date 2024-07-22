@@ -1490,134 +1490,6 @@
                  "y":1067.54931895634
                 }, 
                 {
-                 "height":88.5435,
-                 "id":49,
-                 "name":"Culture Physique",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Culture Physique"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":146.543460063898,
-                 "x":381.467354100106,
-                 "y":624.524842119276
-                }, 
-                {
-                 "height":88.5435,
-                 "id":50,
-                 "name":"Culture Physique",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Culture Physique"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":169.97308200213,
-                 "x":774.438379126731,
-                 "y":635.174469382322
-                }, 
-                {
-                 "height":88.5435,
-                 "id":51,
-                 "name":"Maison de la Douleur ",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Maison de la Douleur "
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":108.168198615548,
-                 "x":403.831801384452,
-                 "y":247.528037007455
-                }, 
-                {
-                 "height":88.5435,
-                 "id":52,
-                 "name":"Maison de la Douleur ",
-                 "properties":[
-                        {
-                         "name":"focusable",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"Maison de la Douleur "
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":65.016318956336,
-                 "x":766.983681043664,
-                 "y":247.528037007455
-                }, 
-                {
                  "height":18.8438,
                  "id":53,
                  "name":"Sant\u00e9 Escale 41",
@@ -1673,6 +1545,25 @@
                  "width":189.726,
                  "x":1056,
                  "y":448
+                }, 
+                {
+                 "height":18.8438,
+                 "id":56,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Assistante ETP",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":1024,
+                 "y":768
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2008,7 +1899,7 @@
          "y":0
         }],
  "nextlayerid":78,
- "nextobjectid":56,
+ "nextobjectid":57,
  "orientation":"orthogonal",
  "properties":[
         {
