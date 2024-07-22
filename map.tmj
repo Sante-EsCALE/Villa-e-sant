@@ -1111,7 +1111,7 @@
                      "color":"#f7f7f7",
                      "fontfamily":"Quicksand",
                      "pixelsize":18,
-                     "text":"Sant\u00e9 Escale 41",
+                     "text":"Espace Bureau DAC",
                      "wrap":true
                     },
                  "type":"text",
@@ -1275,15 +1275,15 @@
                     {
                      "color":"#f7f7f7",
                      "fontfamily":"Quicksand",
-                     "pixelsize":18,
-                     "text":"Culture Physique",
+                     "pixelsize":14,
+                     "text":"Education Th\u00e9rapeutique du patient",
                      "wrap":true
                     },
                  "type":"text",
                  "visible":true,
-                 "width":189.726,
-                 "x":618.84307028754,
-                 "y":391.043488711395
+                 "width":341.15692971246,
+                 "x":574,
+                 "y":389
                 }, 
                 {
                  "height":25.84,
@@ -1613,9 +1613,66 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":169.973,
+                 "width":65.016318956336,
                  "x":766.983681043664,
                  "y":247.528037007455
+                }, 
+                {
+                 "height":18.8438,
+                 "id":53,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Coordination",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":384,
+                 "y":128
+                }, 
+                {
+                 "height":18.8438,
+                 "id":54,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Cadre de sant\u00e9",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":736,
+                 "y":320
+                }, 
+                {
+                 "height":18.8438,
+                 "id":55,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"ASS 41",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":992,
+                 "y":448
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1951,7 +2008,7 @@
          "y":0
         }],
  "nextlayerid":78,
- "nextobjectid":53,
+ "nextobjectid":56,
  "orientation":"orthogonal",
  "properties":[
         {
