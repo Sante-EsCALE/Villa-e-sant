@@ -1583,6 +1583,82 @@
                  "width":189.726,
                  "x":1344,
                  "y":832
+                }, 
+                {
+                 "height":18.8438,
+                 "id":58,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Enseignants",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":544,
+                 "y":704
+                }, 
+                {
+                 "height":18.8438,
+                 "id":59,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Coordination",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":768,
+                 "y":704
+                }, 
+                {
+                 "height":18.8438,
+                 "id":60,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Diet",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":661,
+                 "y":508
+                }, 
+                {
+                 "height":18.8438,
+                 "id":61,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Infirmi\u00e8re",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":357,
+                 "y":589
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1918,7 +1994,7 @@
          "y":0
         }],
  "nextlayerid":78,
- "nextobjectid":58,
+ "nextobjectid":62,
  "orientation":"orthogonal",
  "properties":[
         {
