@@ -1276,7 +1276,7 @@
                      "color":"#f7f7f7",
                      "fontfamily":"Quicksand",
                      "pixelsize":14,
-                     "text":"Education Th\u00e9rapeutique du patient",
+                     "text":"Promotion de la sant\u00e9",
                      "wrap":true
                     },
                  "type":"text",
@@ -1659,6 +1659,25 @@
                  "width":189.726,
                  "x":357,
                  "y":589
+                }, 
+                {
+                 "height":18.8438,
+                 "id":62,
+                 "name":"Sant\u00e9 Escale 41",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#f7f7f7",
+                     "fontfamily":"Quicksand",
+                     "pixelsize":18,
+                     "text":"Inf ETP",
+                     "wrap":true
+                    },
+                 "type":"text",
+                 "visible":true,
+                 "width":189.726,
+                 "x":896,
+                 "y":512
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1994,7 +2013,7 @@
          "y":0
         }],
  "nextlayerid":78,
- "nextobjectid":62,
+ "nextobjectid":63,
  "orientation":"orthogonal",
  "properties":[
         {
