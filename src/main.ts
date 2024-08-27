@@ -9,11 +9,7 @@ let currentPopup: any = undefined;
 // Waiting for the API to be ready
 WA.onInit().then(() => {
     console.log('Scripting API ready');
-    console.log('Player tags: ',WA.player.tags);
-
-    // Disable proximity meeting
-    // DELETE ME if you want to enable proximity meeting for your future events
-    WA.controls.disablePlayerProximityMeeting();
+    console.log('Player tags: ',WA.player.tags)
 
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
