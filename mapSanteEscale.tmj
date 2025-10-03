@@ -1487,7 +1487,7 @@
         {
          "draworder":"topdown",
          "id":12,
-         "name":"Calque d'Objets 2",
+         "name":"floorLayer",
          "objects":[
                 {
                  "height":25.5,
@@ -1799,17 +1799,6 @@
                  "x":450.333,
                  "y":1345.83
                 }],
-         "opacity":1,
-         "type":"objectgroup",
-         "visible":true,
-         "x":0,
-         "y":0
-        }, 
-        {
-         "draworder":"topdown",
-         "id":2,
-         "name":"floorLayer",
-         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
