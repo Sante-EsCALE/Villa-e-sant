@@ -2126,39 +2126,39 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/Desktop\/WA_Room_Builder.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_Room_Builder.tsx"
         }, 
         {
          "firstgid":1001,
-         "source":"..\/Desktop\/WA_Exterior.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_Exterior.tsx"
         }, 
         {
          "firstgid":1851,
-         "source":"..\/Desktop\/WA_Tables.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_Tables.tsx"
         }, 
         {
          "firstgid":2121,
-         "source":"..\/Desktop\/WA_Special_Zones.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_Special_Zones.tsx"
         }, 
         {
          "firstgid":2133,
-         "source":"..\/Desktop\/WA_Seats.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_Seats.tsx"
         }, 
         {
          "firstgid":2315,
-         "source":"..\/Desktop\/WA_Miscellaneous.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_Miscellaneous.tsx"
         }, 
         {
          "firstgid":2425,
-         "source":"..\/Desktop\/WA_Decoration.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_Decoration.tsx"
         }, 
         {
          "firstgid":2521,
-         "source":"..\/Desktop\/WA_User_Interface.tsx"
+         "source":"..\/..\/..\/Desktop\/WA_User_Interface.tsx"
         }, 
         {
          "firstgid":2794,
-         "source":"..\/Desktop\/PNG Tiled\/telephone (1).tsx"
+         "source":"..\/..\/..\/Desktop\/PNG Tiled\/telephone (1).tsx"
         }],
  "tilewidth":32,
  "type":"map",
