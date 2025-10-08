@@ -180,11 +180,34 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5606, 5606, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5606, 5606, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":82,
          "id":79,
-         "name":"collisions",
+         "name":"tuiles collisions",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
          "width":118,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "class":"block",
+         "draworder":"topdown",
+         "id":104,
+         "name":"collisions",
+         "objects":[
+                {
+                 "height":94.6666666666667,
+                 "id":124,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":1301.33333333333,
+                 "x":1252,
+                 "y":1825.33333333333
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -2345,8 +2368,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":102,
- "nextobjectid":121,
+ "nextlayerid":105,
+ "nextobjectid":125,
  "orientation":"orthogonal",
  "properties":[
         {
