@@ -91,7 +91,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -992,6 +992,58 @@
                          "y":1279.33331666667
                         }],
                  "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "class":"jitsi",
+                 "color":"#0055ff",
+                 "draworder":"topdown",
+                 "id":113,
+                 "name":"jitsi room",
+                 "objects":[
+                        {
+                         "height":220,
+                         "id":443,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":355,
+                         "x":1631,
+                         "y":1602
+                        }, 
+                        {
+                         "height":220,
+                         "id":444,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":355,
+                         "x":1631,
+                         "y":1602
+                        }, 
+                        {
+                         "height":227,
+                         "id":445,
+                         "name":"",
+                         "rotation":0,
+                         "type":"",
+                         "visible":true,
+                         "width":509,
+                         "x":2017,
+                         "y":1597
+                        }],
+                 "opacity":1,
+                 "properties":[
+                        {
+                         "name":"jitsi",
+                         "type":"string",
+                         "value":""
+                        }],
                  "type":"objectgroup",
                  "visible":true,
                  "x":0,
@@ -2073,7 +2125,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2166,7 +2218,7 @@
          "name":"estrade",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2259,7 +2311,7 @@
          "name":"murs verres",
          "opacity":0.54,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2352,7 +2404,7 @@
          "name":"murs",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2445,7 +2497,7 @@
          "name":"UX",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2538,7 +2590,7 @@
          "name":"UX +1",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2631,7 +2683,7 @@
          "name":"tables",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2724,7 +2776,7 @@
          "name":"tables verres",
          "opacity":0.7,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2817,7 +2869,7 @@
          "name":"chaises",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -2910,7 +2962,7 @@
          "name":"decoration",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -3003,7 +3055,7 @@
          "name":"panneaux",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -3630,7 +3682,7 @@
                  "y":1443.83333333333
                 }, 
                 {
-                 "height":21.5,
+                 "height":11.8333333333333,
                  "id":114,
                  "name":"",
                  "rotation":0,
@@ -3639,14 +3691,14 @@
                      "color":"#00007f",
                      "fontfamily":"Segoe UI",
                      "pixelsize":8,
-                     "text":"Salle ETP APA, R\u00e9tinograhie",
+                     "text":"DIABBY",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
                  "width":71.6666666666666,
                  "x":992.583333333333,
-                 "y":1890.91666666667
+                 "y":1897.25
                 }, 
                 {
                  "height":15.7954545454545,
@@ -3849,7 +3901,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -3941,7 +3993,7 @@
          "name":"arbres",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":118,
          "x":0,
          "y":0
@@ -4138,12 +4190,12 @@
          "name":"above",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }],
- "nextlayerid":113,
- "nextobjectid":443,
+ "nextlayerid":114,
+ "nextobjectid":446,
  "orientation":"orthogonal",
  "properties":[
         {
