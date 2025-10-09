@@ -193,7 +193,6 @@
          "id":111,
          "layers":[
                 {
-                 "class":"block",
                  "draworder":"topdown",
                  "id":104,
                  "name":"collisions",
@@ -1049,7 +1048,6 @@
                  "y":0
                 }, 
                 {
-                 "class":"block",
                  "color":"#ff0000",
                  "draworder":"topdown",
                  "id":112,
