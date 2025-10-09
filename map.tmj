@@ -42,7 +42,7 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5605, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -90,12 +90,6 @@
          "id":6,
          "name":"start",
          "opacity":1,
-         "properties":[
-                {
-                 "name":"start",
-                 "type":"bool",
-                 "value":true
-                }],
          "type":"tilelayer",
          "visible":true,
          "width":118,
@@ -1971,15 +1965,15 @@
          "y":0
         }, 
         {
-         "color":"#00ff00",
+         "color":"#aa0000",
          "draworder":"topdown",
          "id":114,
-         "name":"Jitsi Room",
+         "name":"Zones",
          "objects":[
                 {
                  "height":219,
                  "id":446,
-                 "name":"Reunion 1",
+                 "name":"Salle de r\u00e9union n\u00b01",
                  "properties":[
                         {
                          "name":"jitsiRoom",
@@ -1996,7 +1990,7 @@
                 {
                  "height":229,
                  "id":447,
-                 "name":"Reunion 2",
+                 "name":"Salle de r\u00e9union n\u00b02",
                  "properties":[
                         {
                          "name":"jitsiRoom",
@@ -2009,6 +2003,289 @@
                  "width":506,
                  "x":2020,
                  "y":1597
+                }, 
+                {
+                 "height":195,
+                 "id":450,
+                 "name":"Groupe de travail n\u00b02",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"groupe_2"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":192,
+                 "x":1406,
+                 "y":317
+                }, 
+                {
+                 "height":322,
+                 "id":451,
+                 "name":"Groupe de travail n\u00b01",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"groupe_1"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":192,
+                 "x":1407,
+                 "y":542.333333333333
+                }, 
+                {
+                 "height":96,
+                 "id":465,
+                 "name":"Table n\u00b01",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"table_1"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":74,
+                 "x":2043,
+                 "y":1216.33333333333
+                }, 
+                {
+                 "height":96,
+                 "id":466,
+                 "name":"Table n\u00b02",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"table_2"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":99,
+                 "x":2142,
+                 "y":1216.33333333333
+                }, 
+                {
+                 "height":546,
+                 "id":452,
+                 "name":"Bureaux de consultation",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":218.666666666667,
+                 "x":1761,
+                 "y":321
+                }, 
+                {
+                 "height":204.666666666667,
+                 "id":453,
+                 "name":"Salon",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":165.333333333333,
+                 "x":2366.33333333333,
+                 "y":1143
+                }, 
+                {
+                 "height":160.666666666667,
+                 "id":463,
+                 "name":"Plage",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":3773.33333333333,
+                 "x":2.33333333333348,
+                 "y":2459
+                }, 
+                {
+                 "height":239.333333333334,
+                 "id":464,
+                 "name":"Parking",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":303.999999999999,
+                 "x":719,
+                 "y":2139.66666666667
+                }, 
+                {
+                 "height":192.666666666667,
+                 "id":454,
+                 "name":"Attente",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":229.333333333333,
+                 "x":768.333333333333,
+                 "y":1605
+                }, 
+                {
+                 "height":192.666666666667,
+                 "id":455,
+                 "name":"Attente",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":229.333333333333,
+                 "x":164.333333333333,
+                 "y":1715
+                }, 
+                {
+                 "height":170,
+                 "id":456,
+                 "name":"Consultation n\u00b02",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"consultation_2"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":221.333333333333,
+                 "x":164.484848484849,
+                 "y":1183.84848484848
+                }, 
+                {
+                 "height":195.333333333333,
+                 "id":457,
+                 "name":"Consultation n\u00b01",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"consultation_1"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":221.333333333333,
+                 "x":161.818181818182,
+                 "y":1433.18181818182
+                }, 
+                {
+                 "height":34.6666666666665,
+                 "id":458,
+                 "name":"Start",
+                 "rotation":0,
+                 "type":"spawn",
+                 "visible":true,
+                 "width":49.3333333333333,
+                 "x":1421.33333333333,
+                 "y":2032.66666666667
+                }, 
+                {
+                 "height":253.999666666667,
+                 "id":459,
+                 "name":"Meeting room n\u00b01",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"room_1"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":221.333,
+                 "x":3073.3335,
+                 "y":1569.00016666667
+                }, 
+                {
+                 "height":253.999666666667,
+                 "id":460,
+                 "name":"Meeting room n\u00b02",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"room_2"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":199.999666666667,
+                 "x":3489.3335,
+                 "y":1567.66683333333
+                }, 
+                {
+                 "height":229.999666666667,
+                 "id":461,
+                 "name":"Meeting room n\u00b03",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"room_3"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":346.666333333334,
+                 "x":3077.3335,
+                 "y":989.000166666666
+                }, 
+                {
+                 "height":229.999666666667,
+                 "id":462,
+                 "name":"Meeting room n\u00b04",
+                 "properties":[
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"room_4"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":229.333000000001,
+                 "x":3454.66683333333,
+                 "y":990.3335
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2399,7 +2676,7 @@
          "y":0
         }],
  "nextlayerid":119,
- "nextobjectid":449,
+ "nextobjectid":467,
  "orientation":"orthogonal",
  "properties":[
         {
