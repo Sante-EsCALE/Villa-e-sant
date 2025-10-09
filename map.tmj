@@ -1987,7 +1987,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":""
+                 "value":"reunion 1"
                 }],
          "type":"objectgroup",
          "visible":true,
