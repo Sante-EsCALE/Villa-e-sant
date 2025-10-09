@@ -91,7 +91,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -184,7 +184,7 @@
          "name":"tuiles collisions",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2122,7 +2122,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2215,7 +2215,7 @@
          "name":"estrade",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2308,7 +2308,7 @@
          "name":"murs verres",
          "opacity":0.54,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2401,7 +2401,7 @@
          "name":"murs",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2494,7 +2494,7 @@
          "name":"UX",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2587,7 +2587,7 @@
          "name":"UX +1",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2680,7 +2680,7 @@
          "name":"tables",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2773,7 +2773,7 @@
          "name":"tables verres",
          "opacity":0.7,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2866,7 +2866,7 @@
          "name":"chaises",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -2959,7 +2959,7 @@
          "name":"decoration",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -3052,7 +3052,7 @@
          "name":"panneaux",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -3898,7 +3898,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -3990,7 +3990,7 @@
          "name":"arbres",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -4187,7 +4187,7 @@
          "name":"above",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }],
