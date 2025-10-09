@@ -1971,7 +1971,6 @@
          "y":0
         }, 
         {
-         "class":"area",
          "color":"#00ff00",
          "draworder":"topdown",
          "id":114,
@@ -2012,12 +2011,6 @@
                  "y":1597
                 }],
          "opacity":1,
-         "properties":[
-                {
-                 "name":"jitsiRoom",
-                 "type":"string",
-                 "value":"reunion 1"
-                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
