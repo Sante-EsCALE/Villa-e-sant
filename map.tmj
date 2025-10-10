@@ -448,7 +448,7 @@
                          "type":"",
                          "visible":true,
                          "width":58.3333333333335,
-                         "x":1220.33333333333,
+                         "x":1217.33333333333,
                          "y":1379.5
                         }, 
                         {
@@ -498,7 +498,7 @@
                             },
                          "type":"",
                          "visible":true,
-                         "width":135,
+                         "width":257,
                          "x":1250.33333333333,
                          "y":1480.83333333333
                         }, 
@@ -549,7 +549,7 @@
                             },
                          "type":"",
                          "visible":true,
-                         "width":109.666666666667,
+                         "width":217.666666666667,
                          "x":1311.66666666667,
                          "y":1452.33333333333
                         }, 
@@ -583,7 +583,7 @@
                             },
                          "type":"",
                          "visible":true,
-                         "width":109.666666666667,
+                         "width":159,
                          "x":1249,
                          "y":1002.16666666667
                         }, 
@@ -600,7 +600,7 @@
                             },
                          "type":"",
                          "visible":true,
-                         "width":109.666666666667,
+                         "width":135,
                          "x":1804,
                          "y":1004.5
                         }],
@@ -1837,12 +1837,12 @@
                  "text":
                     {
                      "color":"#ffffff",
-                     "text":"Enseignants APA",
+                     "text":"Enseignantes APA",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":87.8333333333334,
+                 "width":124.833333333333,
                  "x":787.166666666667,
                  "y":1468.16666666667
                 }, 
@@ -1888,13 +1888,12 @@
                  "text":
                     {
                      "color":"#ffffff",
-                     "halign":"right",
                      "text":"Assistantes ETP",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":112.833333333333,
+                 "width":125.833333333333,
                  "x":993,
                  "y":1476.5
                 }, 
@@ -2296,7 +2295,7 @@
                     },
                  "type":"",
                  "visible":true,
-                 "width":131,
+                 "width":181,
                  "x":831.833333333333,
                  "y":456.083333333333
                 }],
@@ -2637,7 +2636,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
