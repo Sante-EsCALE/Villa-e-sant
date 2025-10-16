@@ -19,6 +19,7 @@ WA.onInit().then(() => {
     WA.room.area.onEnter('clock').subscribe(() => {
         const today = new Date();
         const time = today.getHours() + ":" + today.getMinutes();
+        console.log("Entré dans la zone horloge :", time);
         currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
     });
 
@@ -38,10 +39,13 @@ WA.onInit().then(() => {
     updateDoor();
 
     WA.room.onEnterZone("doorButton", () => {
+        console.log("Entré dans la zone de la porte !");
         if (isAdmin) {
             WA.ui.displayActionMessage({
-                message: "Appuie sur E pour ouvrir/fermer la porte",
+                message: "Appuie sur O pour ouvrir/fermer la porte",
+                key: "O", // touche modifiée
                 callback: () => {
+                    console.log("Bouton porte pressé !");
                     doorOpen = !doorOpen;
                     updateDoor();
                     WA.state.saveVariable("doorOpen", doorOpen);
@@ -54,6 +58,7 @@ WA.onInit().then(() => {
 
     WA.state.onVariableChange("doorOpen").subscribe((value) => {
         if (typeof value === "boolean") {
+            console.log("Variable doorOpen synchronisée :", value);
             doorOpen = value;
             updateDoor();
         }
