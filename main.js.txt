@@ -1,0 +1,46 @@
+import { WA } from "@workadventure/scripting-api";
+
+WA.onInit().then(() => {
+  console.log("Script porte chargé ✅");
+
+  let doorOpen = false;
+  const adminTag = "admin";
+
+  const isAdmin = WA.player.tags.includes(adminTag);
+
+  function updateDoor() {
+    if (doorOpen) {
+      WA.room.showLayer("door_open");
+      WA.room.hideLayer("door_closed");
+    } else {
+      WA.room.showLayer("door_closed");
+      WA.room.hideLayer("door_open");
+    }
+  }
+
+  updateDoor();
+
+  // Interaction avec la zone "doorButton"
+  WA.room.onEnterZone("doorButton", () => {
+    if (isAdmin) {
+      WA.ui.displayActionMessage({
+        message: "Appuie sur E pour ouvrir/fermer la porte",
+        callback: () => {
+          doorOpen = !doorOpen;
+          updateDoor();
+          WA.state.saveVariable("doorOpen", doorOpen);
+        },
+      });
+    }
+  });
+
+  WA.room.onLeaveZone("doorButton", WA.ui.hideActionMessage);
+
+  // Synchronisation entre joueurs
+  WA.state.onVariableChange("doorOpen").subscribe((value) => {
+    if (typeof value === "boolean") {
+      doorOpen = value;
+      updateDoor();
+    }
+  });
+});
