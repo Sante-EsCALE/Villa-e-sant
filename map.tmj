@@ -2907,7 +2907,7 @@
          "height":82,
          "id":79,
          "name":"Collisions",
-         "opacity":0,
+         "opacity":0.52,
          "type":"tilelayer",
          "visible":true,
          "width":118,
@@ -3306,7 +3306,7 @@
                         {
                          "name":"collides",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }]
                 }],
          "tilewidth":32
