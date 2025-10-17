@@ -1,81 +1,25 @@
-/// <reference types="@workadventure/iframe-api-typings" />
+declare const WA: any;
 
-import { bootstrapExtra } from "@workadventure/scripting-api-extra";
+WA.onInit().then(async () => {
+    console.log("Scripting API initialisée !");
+    console.log("Player tags:", WA.player.tags);
 
-console.log('Script started successfully');
-
-let currentPopup: any = undefined;
-let doorOpen = false; // état de la porte
-const adminTag = "admin";
-
-// Waiting for the API to be ready
-WA.onInit().then(() => {
-    console.log('Scripting API ready');
-    console.log('Player tags: ', WA.player.tags);
-
-    const isAdmin = WA.player.tags.includes(adminTag);
-
-    // --- Horloge ---
-    WA.room.area.onEnter('clock').subscribe(() => {
-        const today = new Date();
-        const time = today.getHours() + ":" + today.getMinutes();
-        console.log("Entré dans la zone horloge :", time);
-        currentPopup = WA.ui.openPopup("clockPopup", "It's " + time, []);
-    });
-
-    WA.room.area.onLeave('clock').subscribe(closePopup);
-
-    // --- Porte ---
-    function updateDoor() {
-        if (doorOpen) {
-            WA.room.showLayer("door_open");
-            WA.room.hideLayer("door_closed");
-        } else {
-            WA.room.showLayer("door_closed");
-            WA.room.hideLayer("door_open");
-        }
+    // Charger la Scripting API Extra (obligatoire pour les fonctions de calques)
+    try {
+        await WA.loadExtraLib("https://play.workadventu.re/extra/wa.js");
+        console.log("Scripting API Extra chargée !");
+    } catch (e: unknown) {
+        console.error("Erreur lors du chargement de la Scripting API Extra :", e);
     }
 
-    updateDoor();
-
-    WA.room.onEnterZone("doorButton", () => {
-        console.log("Entré dans la zone de la porte !");
-        if (isAdmin) {
-            WA.ui.displayActionMessage({
-                message: "Appuie sur O pour ouvrir/fermer la porte",
-                key: "O", // touche modifiée
-                callback: () => {
-                    console.log("Bouton porte pressé !");
-                    doorOpen = !doorOpen;
-                    updateDoor();
-                    WA.state.saveVariable("doorOpen", doorOpen);
-                },
-            });
-        }
+    // === ZONE "buttons" ===
+    WA.room.area.onEnter("buttons").subscribe(() => {
+        console.log("Entrée dans la zone 'buttons'");
+        WA.room.hideLayer("door_closed"); // Masque le calque
     });
 
-    WA.room.onLeaveZone("doorButton", WA.ui.hideActionMessage);
-
-    WA.state.onVariableChange("doorOpen").subscribe((value) => {
-        if (typeof value === "boolean") {
-            console.log("Variable doorOpen synchronisée :", value);
-            doorOpen = value;
-            updateDoor();
-        }
+    WA.room.area.onLeave("buttons").subscribe(() => {
+        console.log("Sortie de la zone 'buttons'");
+        WA.room.showLayer("door_closed"); // Réaffiche le calque
     });
-
-    // --- Scripting API Extra ---
-    bootstrapExtra().then(() => {
-        console.log('Scripting API Extra ready');
-    }).catch(e => console.error(e));
-
-}).catch(e => console.error(e));
-
-function closePopup(){
-    if (currentPopup !== undefined) {
-        currentPopup.close();
-        currentPopup = undefined;
-    }
-}
-
-export {};
+});

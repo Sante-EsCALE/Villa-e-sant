@@ -950,7 +950,7 @@
          "name":"door_open",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":118,
          "x":0,
          "y":0
@@ -1055,7 +1055,7 @@
          "name":"buttons",
          "objects":[
                 {
-                 "height":30.6666666666667,
+                 "height":126,
                  "id":492,
                  "name":"",
                  "properties":[
@@ -1077,7 +1077,7 @@
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":32.6666666666667,
+                 "width":63.3333333333334,
                  "x":416.666666666667,
                  "y":1504
                 }],
@@ -3220,7 +3220,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"main.js"
+         "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
