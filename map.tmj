@@ -2723,7 +2723,7 @@
                 {
                  "height":170,
                  "id":456,
-                 "name":"Consultation n\u00b02",
+                 "name":"consultation2",
                  "properties":[
                         {
                          "name":"jitsiRoom",
@@ -2745,7 +2745,7 @@
                 {
                  "height":195.333333333333,
                  "id":457,
-                 "name":"Consultation n\u00b01",
+                 "name":"consultation1",
                  "properties":[
                         {
                          "name":"jitsiRoom",
@@ -3247,7 +3247,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+         "value":"main.js"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",

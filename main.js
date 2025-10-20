@@ -1,54 +1,24 @@
-// --- main.js ---
-// Script porte simple, conforme à la doc WorkAdventure (Scripting Extra)
-
-console.log("main.js chargé ✅");
+import { WA } from "@workadventure/scripting-api-extra";
 
 WA.onInit().then(async () => {
-    console.log("WorkAdventure prêt 🟢");
+    console.log("Contrôle d'accès salle de consultation activé");
 
-    const isAdmin = WA.player.tags.includes("admin");
-    let doorOpen = false;
+    // nom exact de la zone dans Tiled
+    const zoneName = "consultation1";
 
-    // Met à jour les calques selon l'état de la porte
-    function updateDoor() {
-        if (doorOpen) {
-            WA.room.showLayer("door_open");
-            WA.room.hideLayer("door_closed");
-        } else {
-            WA.room.showLayer("door_closed");
-            WA.room.hideLayer("door_open");
-        }
-        console.log("🚪 État porte :", doorOpen ? "ouverte" : "fermée");
-    }
+    // on récupère la variable "maxPlayers" définie dans Tiled
+    const maxPlayers = parseInt(WA.room.area[zoneName]?.properties?.maxPlayers || 2);
 
-    updateDoor();
+    // écoute l'entrée dans la zone
+    WA.room.onEnterZone(zoneName, async () => {
+        const players = await WA.room.getPlayersInZone(zoneName);
 
-    // Quand un admin entre dans la zone du bouton
-    WA.room.onEnterZone("doorButton", () => {
-        if (!isAdmin) return;
+        if (players.length > maxPlayers) {
+            // avertir l'utilisateur
+            WA.chat.sendChatMessage("⚠️ Salle de consultation déjà occupée.", "Système");
 
-        WA.ui.displayActionMessage({
-            message: "Appuie sur O pour ouvrir/fermer la porte",
-            key: "O",
-            callback: () => {
-                doorOpen = !doorOpen;
-                updateDoor();
-                WA.state.saveVariable("doorOpen", doorOpen);
-            }
-        });
-    });
-
-    // Cache le message quand on sort de la zone
-    WA.room.onLeaveZone("doorButton", () => {
-        WA.ui.hideActionMessage();
-    });
-
-    // Synchronisation de la variable entre tous les joueurs
-    WA.state.onVariableChange("doorOpen").subscribe((value) => {
-        if (typeof value === "boolean") {
-            doorOpen = value;
-            updateDoor();
+            // le replacer dehors (adapte les coordonnées à ta carte)
+            WA.player.moveTo(160, 1400);
         }
     });
-
-}).catch(e => console.error("Erreur init WA :", e));
+});
