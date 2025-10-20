@@ -1,24 +1,22 @@
 import { WA } from "@workadventure/scripting-api-extra";
 
-WA.onInit().then(async () => {
-    console.log("Contrôle d'accès salle de consultation activé");
+WA.onInit().then(() => {
+    console.log("Contrôle d'accès activé pour la salle de consultation");
 
-    // nom exact de la zone dans Tiled
-    const zoneName = "consultation1";
+    const zoneName = "consultation1";  // nom exact de la zone dans Tiled
+    const maxPlayers = 1;              // limite de personnes dans la salle
+    const fallbackX = 160;             // coordonnées de sortie
+    const fallbackY = 1400;
 
-    // on récupère la variable "maxPlayers" définie dans Tiled
-    const maxPlayers = parseInt(WA.room.area[zoneName]?.properties?.maxPlayers || 2);
-
-    // écoute l'entrée dans la zone
+    // Quand un joueur entre dans la zone
     WA.room.onEnterZone(zoneName, async () => {
         const players = await WA.room.getPlayersInZone(zoneName);
 
-        if (players.length > maxPlayers) {
-            // avertir l'utilisateur
-            WA.chat.sendChatMessage("⚠️ Salle de consultation déjà occupée.", "Système");
+        console.log(`➡️ ${players.length} joueur(s) dans ${zoneName}`);
 
-            // le replacer dehors (adapte les coordonnées à ta carte)
-            WA.player.moveTo(160, 1400);
+        if (players.length > maxPlayers) {
+            WA.chat.sendChatMessage("⚠️ Salle pleine (1 personne max).", "Système");
+            WA.player.moveTo(fallbackX, fallbackY);
         }
     });
 });
