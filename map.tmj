@@ -280,7 +280,7 @@
                  "name":"Calque de Tuiles 17",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":118,
                  "x":0,
                  "y":0
@@ -373,7 +373,7 @@
                  "name":"Calque de Tuiles 18",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":false,
+                 "visible":true,
                  "width":118,
                  "x":0,
                  "y":0
@@ -448,7 +448,7 @@
                          "type":"",
                          "visible":true,
                          "width":58.3333333333335,
-                         "x":1217.33333333333,
+                         "x":1216.66666666666,
                          "y":1379.5
                         }, 
                         {
@@ -572,7 +572,7 @@
                         }],
                  "opacity":1,
                  "type":"objectgroup",
-                 "visible":false,
+                 "visible":true,
                  "x":0,
                  "y":0
                 }],
@@ -2076,14 +2076,15 @@
                  "text":
                     {
                      "color":"#ffffff",
+                     "halign":"center",
                      "text":"\u2191 Informations \u2191",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":122.5,
-                 "x":1012.33333333333,
-                 "y":1703.83333333333
+                 "width":159.833333333333,
+                 "x":998.333333333333,
+                 "y":1702.5
                 }, 
                 {
                  "height":19,
