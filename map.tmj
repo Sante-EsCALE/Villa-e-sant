@@ -2749,14 +2749,19 @@
                  "name":"consultation1",
                  "properties":[
                         {
+                         "name":"event",
+                         "type":"string",
+                         "value":"customScript"
+                        }, 
+                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"consultation_1"
                         }, 
                         {
-                         "name":"maxPlayers",
-                         "type":"int",
-                         "value":1
+                         "name":"script",
+                         "type":"string",
+                         "value":"if (waRoom.players.length > 2) { waPlayer.sendMessage('Salle pleine !'); waPlayer.teleportTo(1,1); } else { waPlayer.sendMessage('Bienvenue dans consultation1'); }"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -2835,7 +2840,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
