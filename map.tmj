@@ -2069,6 +2069,23 @@
                  "y":1476.5
                 }, 
                 {
+                 "height":27.6666666666667,
+                 "id":493,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#ffffff",
+                     "text":"\u2191 Informations \u2191",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":122.5,
+                 "x":1012.33333333333,
+                 "y":1703.83333333333
+                }, 
+                {
                  "height":19,
                  "id":83,
                  "name":"",
@@ -2907,7 +2924,7 @@
          "height":82,
          "id":79,
          "name":"Collisions",
-         "opacity":0.52,
+         "opacity":0,
          "type":"tilelayer",
          "visible":true,
          "width":118,
@@ -3204,7 +3221,7 @@
          "y":0
         }],
  "nextlayerid":129,
- "nextobjectid":493,
+ "nextobjectid":494,
  "orientation":"orthogonal",
  "properties":[
         {
@@ -3230,7 +3247,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"srcmain.ts"
+         "value":"src\/main.ts"
         }],
  "renderorder":"right-down",
  "tiledversion":"1.11.2",
