@@ -2502,7 +2502,7 @@
          "name":"Zones",
          "objects":[
                 {
-                 "height":228,
+                 "height":316,
                  "id":446,
                  "name":"Salle de r\u00e9union n\u00b01",
                  "properties":[
@@ -2516,10 +2516,10 @@
                  "visible":true,
                  "width":361,
                  "x":1627.66666666667,
-                 "y":1601.33333333333
+                 "y":1513.33333333333
                 }, 
                 {
-                 "height":234,
+                 "height":316.666666666667,
                  "id":447,
                  "name":"Salle de r\u00e9union n\u00b02",
                  "properties":[
@@ -2531,9 +2531,9 @@
                  "rotation":0,
                  "type":"area",
                  "visible":true,
-                 "width":519,
-                 "x":2012,
-                 "y":1597
+                 "width":512.333333333333,
+                 "x":2018.66666666667,
+                 "y":1514.33333333333
                 }, 
                 {
                  "height":195,
