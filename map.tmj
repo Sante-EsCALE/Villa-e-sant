@@ -3027,33 +3027,6 @@
                  "y":1715
                 }, 
                 {
-                 "height":195.333333333333,
-                 "id":457,
-                 "name":"consultation1",
-                 "properties":[
-                        {
-                         "name":"event",
-                         "type":"string",
-                         "value":"customScript"
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"consultation_1"
-                        }, 
-                        {
-                         "name":"script",
-                         "type":"string",
-                         "value":"bieif (waRoom.players.length > 2) { waPlayer.sendMessage('Salle pleine !'); waPlayer.teleportTo(1,1); } else { waPlayer.sendMessage('Bienvenue dans consultation1'); }"
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":221.333333333333,
-                 "x":161.818181818182,
-                 "y":1433.18181818182
-                }, 
-                {
                  "height":253.999666666667,
                  "id":459,
                  "name":"Meeting room n\u00b01",
