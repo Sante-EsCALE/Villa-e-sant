@@ -3027,28 +3027,6 @@
                  "y":1715
                 }, 
                 {
-                 "height":170,
-                 "id":456,
-                 "name":"consultation2",
-                 "properties":[
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"consultation_2"
-                        }, 
-                        {
-                         "name":"maxPlayers",
-                         "type":"int",
-                         "value":1
-                        }],
-                 "rotation":0,
-                 "type":"area",
-                 "visible":true,
-                 "width":221.333333333333,
-                 "x":164.484848484849,
-                 "y":1183.84848484848
-                }, 
-                {
                  "height":195.333333333333,
                  "id":457,
                  "name":"consultation1",
