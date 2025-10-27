@@ -1313,7 +1313,7 @@
                  "text":
                     {
                      "bold":true,
-                     "color":"#ffff00",
+                     "color":"#ffaa7f",
                      "fontfamily":"8514oem",
                      "halign":"center",
                      "pixelsize":20,
@@ -1334,7 +1334,7 @@
                  "text":
                     {
                      "bold":true,
-                     "color":"#ffff00",
+                     "color":"#ffaa7f",
                      "fontfamily":"8514oem",
                      "halign":"center",
                      "pixelsize":20,
@@ -1355,7 +1355,7 @@
                  "text":
                     {
                      "bold":true,
-                     "color":"#ffff00",
+                     "color":"#ffaa7f",
                      "fontfamily":"8514oem",
                      "halign":"center",
                      "pixelsize":20,
@@ -1560,7 +1560,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#ffffff",
+                     "color":"#ffff00",
                      "halign":"center",
                      "text":"\u2191 Informations \u2191",
                      "wrap":true
