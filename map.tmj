@@ -2048,7 +2048,7 @@
                      "color":"#00007f",
                      "fontfamily":"Segoe UI",
                      "pixelsize":10,
-                     "text":"Administration, Salle de r\u00e9union",
+                     "text":"Salle de r\u00e9union, ",
                      "wrap":true
                     },
                  "type":"",
@@ -2067,12 +2067,12 @@
                      "color":"#00007f",
                      "fontfamily":"Segoe UI",
                      "pixelsize":10,
-                     "text":"Salle de pause",
+                     "text":"Administration, Salle de pause",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":139.25,
+                 "width":143.583333333333,
                  "x":1289.125,
                  "y":1420.16668333333
                 }, 
