@@ -2548,6 +2548,23 @@
                  "width":386.667,
                  "x":162.6665,
                  "y":894.333333333333
+                }, 
+                {
+                 "height":228,
+                 "id":527,
+                 "name":"Consultations",
+                 "properties":[
+                        {
+                         "name":"silent",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":572.667,
+                 "x":160.6665,
+                 "y":1372
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2938,7 +2955,7 @@
          "y":0
         }],
  "nextlayerid":129,
- "nextobjectid":527,
+ "nextobjectid":528,
  "orientation":"orthogonal",
  "properties":[
         {
