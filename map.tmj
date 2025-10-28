@@ -2540,7 +2540,7 @@
                         {
                          "name":"silent",
                          "type":"bool",
-                         "value":false
+                         "value":true
                         }],
                  "rotation":0,
                  "type":"area",
